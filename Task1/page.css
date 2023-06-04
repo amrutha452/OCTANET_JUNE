@@ -1,0 +1,122 @@
+body{
+    padding:0;
+    margin:0;
+ 
+    background: url("https://www.travelworld.ae/wp-content/uploads/2015/08/slider2.jpg");
+  background-size:1550px 720px;
+
+}
+/* .main{
+   height:100%;
+   width:100%;
+} */
+.head{
+    display :flex;
+    margin-left: 10px;
+}
+.head img{
+    width:70px;
+    height:70px;
+border-radius:50%;
+margin-top:10px;
+
+}
+.head h1{
+    color:rgb(225, 99, 99);
+    font-size: 40px;
+    text-shadow: 3px 2px 2px black;
+    margin-top:14px;
+ 
+}
+.wrap{
+    display:flex;
+}
+marquee img{
+    border-radius: 90%;
+    width:90px;
+    height:90px;
+}
+.nav {
+    margin-top: 27px;
+    margin-left: 400px;
+    font-size: 30px;
+    
+}
+.nav a{
+    color:rgb(225, 99, 99); 
+    text-decoration: none;
+    text-shadow: 2px 2px 2px black;
+    margin-left: 45px;
+}
+
+.nav a:hover{
+    font-size:32px;
+    margin-left:43px;
+    background-color: rgb(175, 203, 176);
+}
+
+.content{
+    width:600px;
+    height:400px;
+
+    margin-left:40px;
+    font-family:cursive;
+    line-height: 75px;
+   
+
+}
+.content h1{
+    color:rgb(17, 16, 16);
+    text-shadow: 2px 2px 2px  rgb(198, 99, 99);
+}
+
+.content button{
+    padding:10px;
+    width:140px;
+    height:60px;
+    font-size: 14px;
+    border-radius: 25px;
+    color: black;
+    background-color: rgb(198, 99, 99);
+
+}
+
+.content button:hover{
+    background-color:rgb(175, 203, 176);
+    font-size: 15px;
+    cursor:pointer;
+}
+
+#about{
+    border:5px  solid rgb(115, 124, 124);
+    
+    height:710px;
+    margin-top:75px;
+    background-color:azure;
+}
+.container{
+    padding:20px;
+    display: flex;
+column-gap: 110px;
+flex-wrap: wrap;
+margin-top: -35px;
+}
+.container div{
+   
+  margin-top: 20px;
+  box-shadow: 2px 1px 5px ;
+
+    
+}
+.container div img{
+    width:400px;
+    height:150px
+}
+
+.container div p{
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    
+}
