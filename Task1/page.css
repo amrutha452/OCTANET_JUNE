@@ -1,15 +1,16 @@
 body{
     padding:0;
     margin:0;
- 
-    background: url("https://www.travelworld.ae/wp-content/uploads/2015/08/slider2.jpg");
-  background-size:1550px 720px;
+
+
 
 }
-/* .main{
-   height:100%;
-   width:100%;
-} */
+.main{
+    
+    background: url("https://www.travelworld.ae/wp-content/uploads/2015/08/slider2.jpg");
+    background-size:1750px 800px;
+    height: 100vh;
+}
 .head{
     display :flex;
     margin-left: 10px;
@@ -30,6 +31,7 @@ margin-top:10px;
 }
 .wrap{
     display:flex;
+   
 }
 marquee img{
     border-radius: 90%;
@@ -86,6 +88,11 @@ marquee img{
     font-size: 15px;
     cursor:pointer;
 }
+#about h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 20px;
+   
+}
 
 #about{
     border:5px  solid rgb(115, 124, 124);
@@ -100,6 +107,7 @@ marquee img{
 column-gap: 110px;
 flex-wrap: wrap;
 margin-top: -35px;
+background-color: rgb(245, 245, 241);
 }
 .container div{
    
@@ -119,4 +127,55 @@ margin-top: -35px;
     font-weight: bolder;
     text-align: center;
     
+}
+
+#explain .container1{
+height: 100vh;
+background-color: aliceblue;
+}
+#explain .container1  h1{
+ font-family: Arial, sans-serif;
+ font-size: 30x;
+}
+#explain .container1 .one{
+  
+    width:500px;
+    height:500px;
+    margin-left: 120px;
+    margin-top: 10px;
+    box-shadow: 5px 3px 15px  ;
+}
+#explain .container1 .one img{
+    margin-left: 700px;
+    margin-top: -530px;
+}
+
+#explain .container1 .one p{
+   
+    margin:20px;
+    margin-top: 25px;
+    padding:10px;
+    line-height: 40px;
+    font-size: 25px;
+    font-family:cursive;
+    font-weight: bolder;
+}
+
+#review .container2{
+    height:100vh;
+    /* background: url('https://i.pinimg.com/originals/a6/d0/dc/a6d0dc389b744b9aea3d8a8fe5ae108e.jpg');
+    background-size: 100% 100; */
+}
+
+#review .container2 center{
+    padding-top: 70px;
+}
+
+#review .container2 .review{
+    display: inline-flex;
+    width:200px;
+    height:200px;
+margin-left: 100px;
+margin-top: 10px;
+ 
 }
