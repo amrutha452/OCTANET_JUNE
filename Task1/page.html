@@ -7,7 +7,7 @@
     <link href="./page.css" rel="stylesheet"/>
     <title>Landing page</title>
 </head>
-<body >
+<body >̥
     
 <div class="main">
     <div class="wrap">
@@ -24,9 +24,9 @@
         <div class="nav">
        
             <a href="#">HOME</a>
-            <a href="#about">ABOUT</a>
-            <a href="#">TOUR-PLAN</a>
-            <a href="#">REVIEW</a>
+            <a href="#explain">ABOUT</a>
+            <a href="#about">TOUR-PLAN</a>
+            <a href="#review">REVIEW</a>
        
          </div>
 
@@ -44,7 +44,23 @@
 </div>
 
    </div>
-   
+   <section id="explain">
+    
+    <div class="container1">
+        <br>
+        <center><h1>ABOUT</h1></center><br>
+      <div class="one">
+
+         <p>ARE YOU PLANNING TO GO TO WORLD TOUR?<br>
+         What are you waiting for?
+         We are providing a complete world tour package. It’s not easy to find good deals on airfare, 
+            lodging, and activities,let alone figure where you want to go in the first place!
+             Fortunately, here is a  traveling sites out there making trip planning easier and less stressful.</p>
+         <img src="https://media0.giphy.com/media/hScncwd7hUlCjAp9ia/giphy.gif"/>
+      </div>
+    </div>
+
+   </section>
    <section id="about">
     <center><h1>7 WONDERS OF THE WORLD</h1></center>
 <div class="container">
@@ -79,5 +95,57 @@
   
 </div>
    </section>
+  
+
+   <section id="review">
+
+     <div class="container2">
+       <center> 
+        <img src="https://th.bing.com/th/id/OIP.Aec-F-PBPqngW46y7HHUkgAAAA?pid=ImgDet&w=284&h=177&rs=1"/>
+    
+    
+</center>
+   <div class="review">
+    <img id="img1" src="https://images.sampletemplates.com/wp-content/uploads/2015/03/02120253/Printable-Large-Star-Template.jpg" onclick="fun(1)"/>
+    <img id="img2" src="https://images.sampletemplates.com/wp-content/uploads/2015/03/02120253/Printable-Large-Star-Template.jpg" onclick="fun(2)"/>
+    <img id="img3" src="https://images.sampletemplates.com/wp-content/uploads/2015/03/02120253/Printable-Large-Star-Template.jpg" onclick="fun(3)" />
+    <img id="img4" src="https://images.sampletemplates.com/wp-content/uploads/2015/03/02120253/Printable-Large-Star-Template.jpg" onclick="fun(4)" />
+    <img id="img5" src="https://images.sampletemplates.com/wp-content/uploads/2015/03/02120253/Printable-Large-Star-Template.jpg" onclick="fun(5)" />
+   
+   </div>
+     </div>
+   </section>
+   <script>
+    function fun(id)
+    {
+        console.log("hello");
+        if(id===1){
+            var img=document.getElementById('img1');
+        img.src="https://th.bing.com/th/id/OIP.pngPGEyZGHOtCqRXH9LtVAHaFS?pid=ImgDet&rs=1";
+    
+        }
+        if(id===2){
+            var img=document.getElementById('img2');
+        img.src="https://th.bing.com/th/id/OIP.pngPGEyZGHOtCqRXH9LtVAHaFS?pid=ImgDet&rs=1";
+    
+        }
+        if(id===3){
+            var img=document.getElementById('img3');
+        img.src="https://th.bing.com/th/id/OIP.pngPGEyZGHOtCqRXH9LtVAHaFS?pid=ImgDet&rs=1";
+    
+        }
+        if(id===4){
+            var img=document.getElementById('img4');
+        img.src="https://th.bing.com/th/id/OIP.pngPGEyZGHOtCqRXH9LtVAHaFS?pid=ImgDet&rs=1";
+    
+        }
+        if(id===5){
+            var img=document.getElementById('img5');
+        img.src="https://th.bing.com/th/id/OIP.pngPGEyZGHOtCqRXH9LtVAHaFS?pid=ImgDet&rs=1";
+    
+        }
+    }
+    
+   </script>
 </body>
 </html>
